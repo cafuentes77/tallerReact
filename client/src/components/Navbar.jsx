@@ -27,6 +27,11 @@ export const Navbar = () => {
                                 <GoPersonFill className="mr-2" /> Login
                             </NavLink>
                         </h4>
+                        <h4 className="cursor-pointer flex items-center font-bold text-lg text-black transition-all duration-300 hover:text-slate-500 hover:translate-x-1">
+                            <NavLink to={"/Contacto"} className="flex items-center">
+                                <GoPersonFill className="mr-2" /> Contacto
+                            </NavLink>
+                        </h4>
                     </div>
                 </div>
             </div>
