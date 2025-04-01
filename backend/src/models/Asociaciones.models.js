@@ -1,6 +1,7 @@
 import { Categoria } from "./Categorias.models.js";
 import { Juego } from "./Juego.models.js";
 import { Consola } from "./Consolas.models.js";
+import { Usuario } from "./Usuario.models.js";
 
 
 Juego.belongsTo(Consola, {

@@ -1,4 +1,4 @@
-import { Usuario } from "../models/Usuario.model.js";
+import { Usuario } from "../models/Usuario.models.js"
 import { isValidEmail, isValidRut, isValidName, isValidPassword } from "../utils/validators.js";
 
 export const validateUser = ({rut, nombre, apellido, email, password}) =>{
