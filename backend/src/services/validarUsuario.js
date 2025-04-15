@@ -12,7 +12,7 @@ export const validateUser = ({rut, nombre, apellido, email, password}) =>{
         throw new Error("el nombre no cumple el formato")
     }
     if(!isValidName(apellido)){
-        throw new Error("el apelido no cumple el formato")
+        throw new Error("el apellido no cumple el formato")
     }
     if(!isValidPassword(password)){
         throw new Error("La contraseña no cumple el formato válido")

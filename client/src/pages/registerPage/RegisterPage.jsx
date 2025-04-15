@@ -6,7 +6,7 @@ export const RegisterPage = () => {
   return (
     <div className="w-full flex justify-center">
         {/* <FormularioRegistro /> */}
-        <FormularioRegistro2 />
+        <FormularioRegistro />
     </div>
   )
 }
