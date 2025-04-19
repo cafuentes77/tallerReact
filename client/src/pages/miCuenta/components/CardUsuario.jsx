@@ -13,7 +13,7 @@ export const CardUsuario = ({usuarioData}) => {
                     <span className="font-semibold">Email:</span> {usuarioData?.email}
                 </p>
                 <p className="text-gray-600 mb-1">
-                    <span className="font-semibold">Teléfonno:</span> {usuarioData?.telefono}
+                    <span className="font-semibold">Teléfono:</span> {usuarioData?.telefono}
                 </p>
             </div>
         </>

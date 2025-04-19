@@ -3,7 +3,7 @@ import { fetchServices } from "../../../services/fetchServices";
 import { useSnackbar } from "notistack";
 
 export const LoginForm = () => {
-    const { enqueueSnackbar } = useSnackbar()  
+    const { enqueueSnackbar } = useSnackbar()
     const [loginForm , setLoginForm] = useState({
         email: "",
         password: "",
@@ -22,12 +22,10 @@ export const LoginForm = () => {
             const body = loginForm
             const data = await fetchServices(url, method, null, body);
 
-            if (data.code == 200
-
-            ){
+            if (data.code == 200){
                 enqueueSnackbar(data.message, { variant: 'success' });
                 localStorage.setItem("token", data.token);
-                localStorage.setItem("usuario", data.usuario);
+                localStorage.setItem("usuario", JSON.stringify(data.usuario));
                 location.href = "/micuenta"
             }else {
                 enqueueSnackbar(data.message, { variant: 'error' });

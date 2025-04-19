@@ -1,10 +1,11 @@
 import { Router } from "express";
 import { getUsuarioById } from "../controllers/usuario.controllers.js";
+import { verificarToken } from "../middlewares/login.middleware.js";
 
 
 const router = Router()
 
-router.get("/:id", getUsuarioById)
+router.get("/:id", verificarToken, getUsuarioById)
 
 
 

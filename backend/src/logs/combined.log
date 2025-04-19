@@ -1369,3 +1369,359 @@
 2025-04-14 23:34:57 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
 2025-04-14 23:34:58 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
 2025-04-14 23:34:58 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 18:54:57 info: Not overriding built-in method from model attribute: validate
+2025-04-15 18:54:58 info: Executing (default): SELECT 1+1 AS result
+2025-04-15 18:54:58 info: Conexión a la base de datos establecida correctamente.
+2025-04-15 18:54:58 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 18:54:58 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-15 18:54:58 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 18:54:58 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-15 18:54:58 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 18:54:58 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-15 18:54:58 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 18:54:58 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-15 18:54:58 info: Modelos sincronizados correctamente.
+2025-04-15 18:54:58 info: Servidor escuchando en el puerto: 3001
+2025-04-15 19:05:06 info: Not overriding built-in method from model attribute: validate
+2025-04-15 19:05:07 info: Executing (default): SELECT 1+1 AS result
+2025-04-15 19:05:07 info: Conexión a la base de datos establecida correctamente.
+2025-04-15 19:05:07 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:05:07 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-15 19:05:07 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:05:07 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-15 19:05:07 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:05:07 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-15 19:05:07 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:05:07 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-15 19:05:07 info: Modelos sincronizados correctamente.
+2025-04-15 19:05:07 info: Servidor escuchando en el puerto: 3001
+2025-04-15 19:06:47 info: Not overriding built-in method from model attribute: validate
+2025-04-15 19:06:47 info: Executing (default): SELECT 1+1 AS result
+2025-04-15 19:06:47 info: Conexión a la base de datos establecida correctamente.
+2025-04-15 19:06:47 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:06:47 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-15 19:06:47 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:06:47 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-15 19:06:47 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:06:47 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-15 19:06:47 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:06:47 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-15 19:06:47 info: Modelos sincronizados correctamente.
+2025-04-15 19:06:47 info: Servidor escuchando en el puerto: 3001
+2025-04-15 19:09:05 info: Not overriding built-in method from model attribute: validate
+2025-04-15 19:09:05 info: Executing (default): SELECT 1+1 AS result
+2025-04-15 19:09:05 info: Conexión a la base de datos establecida correctamente.
+2025-04-15 19:09:05 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:09:05 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-15 19:09:05 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:09:05 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-15 19:09:05 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:09:05 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-15 19:09:05 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:09:05 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-15 19:09:05 info: Modelos sincronizados correctamente.
+2025-04-15 19:09:05 info: Servidor escuchando en el puerto: 3001
+2025-04-15 19:15:26 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-15 19:18:55 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 19:18:56 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 19:18:56 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 19:19:13 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-15 19:20:56 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 19:20:57 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 19:20:57 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 19:21:14 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-15 19:46:46 info: Not overriding built-in method from model attribute: validate
+2025-04-15 19:46:47 info: Executing (default): SELECT 1+1 AS result
+2025-04-15 19:46:47 info: Conexión a la base de datos establecida correctamente.
+2025-04-15 19:46:47 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:46:47 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-15 19:46:47 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:46:47 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-15 19:46:47 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:46:47 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-15 19:46:47 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 19:46:47 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-15 19:46:47 info: Modelos sincronizados correctamente.
+2025-04-15 19:46:47 info: Servidor escuchando en el puerto: 3001
+2025-04-15 19:47:00 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 19:47:01 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 19:47:01 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 19:47:23 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-15 20:04:56 info: Not overriding built-in method from model attribute: validate
+2025-04-15 20:04:56 info: Executing (default): SELECT 1+1 AS result
+2025-04-15 20:04:56 info: Conexión a la base de datos establecida correctamente.
+2025-04-15 20:04:56 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 20:04:56 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-15 20:04:56 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 20:04:56 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-15 20:04:56 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 20:04:56 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-15 20:04:56 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 20:04:56 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-15 20:04:56 info: Modelos sincronizados correctamente.
+2025-04-15 20:04:56 info: Servidor escuchando en el puerto: 3001
+2025-04-15 20:11:35 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:11:36 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:11:36 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:12:34 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-15 20:12:35 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-15 20:12:35 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-15 20:13:01 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:13:01 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:13:05 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:13:05 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:13:15 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-15 20:13:16 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-15 20:13:16 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-15 20:15:06 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-15 20:18:24 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-15 20:22:04 info: Not overriding built-in method from model attribute: validate
+2025-04-15 20:22:05 info: Executing (default): SELECT 1+1 AS result
+2025-04-15 20:22:05 info: Conexión a la base de datos establecida correctamente.
+2025-04-15 20:22:05 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 20:22:05 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-15 20:22:05 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 20:22:05 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-15 20:22:05 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 20:22:05 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-15 20:22:05 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 20:22:05 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-15 20:22:05 info: Modelos sincronizados correctamente.
+2025-04-15 20:22:05 info: Servidor escuchando en el puerto: 3001
+2025-04-15 20:23:45 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:23:45 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:23:46 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:23:46 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:24:07 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-15 20:24:44 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-15 20:30:04 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-15 20:30:04 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-15 20:35:16 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:35:16 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:35:17 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:35:17 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-15 20:49:54 info: Not overriding built-in method from model attribute: validate
+2025-04-15 20:49:55 info: Executing (default): SELECT 1+1 AS result
+2025-04-15 20:49:55 info: Conexión a la base de datos establecida correctamente.
+2025-04-15 20:49:55 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 20:49:55 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-15 20:49:55 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 20:49:55 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-15 20:49:55 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 20:49:55 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-15 20:49:55 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-15 20:49:55 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-15 20:49:55 info: Modelos sincronizados correctamente.
+2025-04-15 20:49:55 info: Servidor escuchando en el puerto: 3001
+2025-04-19 17:13:16 info: Not overriding built-in method from model attribute: validate
+2025-04-19 17:13:16 info: Executing (default): SELECT 1+1 AS result
+2025-04-19 17:13:16 info: Conexión a la base de datos establecida correctamente.
+2025-04-19 17:13:16 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:13:16 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-19 17:13:16 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:13:16 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-19 17:13:16 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:13:17 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-19 17:13:17 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:13:17 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-19 17:13:17 info: Modelos sincronizados correctamente.
+2025-04-19 17:13:17 info: Servidor escuchando en el puerto: 3001
+2025-04-19 17:17:35 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 17:20:25 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 17:24:26 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 17:42:48 info: Not overriding built-in method from model attribute: validate
+2025-04-19 17:42:49 info: Executing (default): SELECT 1+1 AS result
+2025-04-19 17:42:49 info: Conexión a la base de datos establecida correctamente.
+2025-04-19 17:42:49 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:42:49 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-19 17:42:49 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:42:49 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-19 17:42:49 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:42:49 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-19 17:42:49 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:42:49 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-19 17:42:49 info: Modelos sincronizados correctamente.
+2025-04-19 17:42:49 info: Servidor escuchando en el puerto: 3001
+2025-04-19 17:48:19 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-19 17:48:19 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-19 17:48:19 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-19 17:49:35 info: Not overriding built-in method from model attribute: validate
+2025-04-19 17:49:35 info: Executing (default): SELECT 1+1 AS result
+2025-04-19 17:49:35 info: Conexión a la base de datos establecida correctamente.
+2025-04-19 17:49:35 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:49:35 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-19 17:49:35 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:49:35 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-19 17:49:35 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:49:35 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-19 17:49:35 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:49:35 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-19 17:49:35 info: Modelos sincronizados correctamente.
+2025-04-19 17:49:35 info: Servidor escuchando en el puerto: 3001
+2025-04-19 17:51:22 info: Not overriding built-in method from model attribute: validate
+2025-04-19 17:51:23 info: Executing (default): SELECT 1+1 AS result
+2025-04-19 17:51:23 info: Conexión a la base de datos establecida correctamente.
+2025-04-19 17:51:23 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:51:23 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-19 17:51:23 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:51:23 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-19 17:51:23 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:51:23 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-19 17:51:23 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 17:51:23 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-19 17:51:23 info: Modelos sincronizados correctamente.
+2025-04-19 17:51:23 info: Servidor escuchando en el puerto: 3001
+2025-04-19 17:51:42 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 17:51:43 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 17:51:43 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 17:52:01 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-19 17:52:01 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-19 18:03:23 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:03:23 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:03:28 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 18:03:28 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 18:03:28 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 18:04:05 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-19 18:04:07 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:04:07 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:05:58 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:05:58 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:06:00 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 18:06:01 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 18:06:01 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 18:06:01 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 18:06:10 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-19 18:06:11 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:06:11 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:13:03 info: Not overriding built-in method from model attribute: validate
+2025-04-19 18:13:04 info: Executing (default): SELECT 1+1 AS result
+2025-04-19 18:13:04 info: Conexión a la base de datos establecida correctamente.
+2025-04-19 18:13:04 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 18:13:04 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-19 18:13:04 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 18:13:04 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-19 18:13:04 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 18:13:04 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-19 18:13:04 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 18:13:04 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-19 18:13:04 info: Modelos sincronizados correctamente.
+2025-04-19 18:13:04 info: Servidor escuchando en el puerto: 3001
+2025-04-19 18:22:41 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 18:22:43 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 18:22:43 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 18:22:52 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-19 18:22:52 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:22:53 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:23:37 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:23:37 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:38:47 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:38:47 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:41:56 info: Not overriding built-in method from model attribute: validate
+2025-04-19 18:41:56 info: Executing (default): SELECT 1+1 AS result
+2025-04-19 18:41:56 info: Conexión a la base de datos establecida correctamente.
+2025-04-19 18:41:56 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 18:41:57 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-19 18:41:57 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 18:41:57 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-19 18:41:57 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 18:41:57 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-19 18:41:57 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 18:41:57 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-19 18:41:57 info: Modelos sincronizados correctamente.
+2025-04-19 18:41:57 info: Servidor escuchando en el puerto: 3001
+2025-04-19 18:44:33 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:49:57 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:49:57 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:51:11 info: Not overriding built-in method from model attribute: validate
+2025-04-19 18:51:11 info: Executing (default): SELECT 1+1 AS result
+2025-04-19 18:51:11 info: Conexión a la base de datos establecida correctamente.
+2025-04-19 18:51:11 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 18:51:11 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-19 18:51:11 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 18:51:11 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-19 18:51:11 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 18:51:11 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-19 18:51:11 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 18:51:11 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-19 18:51:11 info: Modelos sincronizados correctamente.
+2025-04-19 18:51:11 info: Servidor escuchando en el puerto: 3001
+2025-04-19 18:53:05 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 18:53:05 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:13:09 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:13:09 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:14:52 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:14:52 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:20:39 info: Not overriding built-in method from model attribute: validate
+2025-04-19 19:20:39 info: Executing (default): SELECT 1+1 AS result
+2025-04-19 19:20:39 info: Conexión a la base de datos establecida correctamente.
+2025-04-19 19:20:39 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:20:40 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-19 19:20:40 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:20:40 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-19 19:20:40 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:20:40 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-19 19:20:40 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:20:40 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-19 19:20:40 info: Modelos sincronizados correctamente.
+2025-04-19 19:20:40 info: Servidor escuchando en el puerto: 3001
+2025-04-19 19:26:34 info: Not overriding built-in method from model attribute: validate
+2025-04-19 19:26:35 info: Executing (default): SELECT 1+1 AS result
+2025-04-19 19:26:35 info: Conexión a la base de datos establecida correctamente.
+2025-04-19 19:26:35 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:26:35 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-19 19:26:35 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:26:35 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-19 19:26:35 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:26:35 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-19 19:26:35 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:26:35 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-19 19:26:35 info: Modelos sincronizados correctamente.
+2025-04-19 19:26:35 info: Servidor escuchando en el puerto: 3001
+2025-04-19 19:26:42 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:26:42 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:30:29 info: Not overriding built-in method from model attribute: validate
+2025-04-19 19:30:29 info: Executing (default): SELECT 1+1 AS result
+2025-04-19 19:30:29 info: Conexión a la base de datos establecida correctamente.
+2025-04-19 19:30:29 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:30:29 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-19 19:30:29 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:30:29 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-19 19:30:29 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:30:29 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-19 19:30:29 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:30:29 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-19 19:30:29 info: Modelos sincronizados correctamente.
+2025-04-19 19:30:29 info: Servidor escuchando en el puerto: 3001
+2025-04-19 19:30:37 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:30:37 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:30:52 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 19:30:53 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 19:30:53 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
+2025-04-19 19:31:38 info: Executing (default): SELECT `email`, `id`, `password`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'fuents@gmail.com' LIMIT 1;
+2025-04-19 19:31:39 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:31:39 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:33:45 info: Not overriding built-in method from model attribute: validate
+2025-04-19 19:33:45 info: Executing (default): SELECT 1+1 AS result
+2025-04-19 19:33:45 info: Conexión a la base de datos establecida correctamente.
+2025-04-19 19:33:45 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:33:45 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-19 19:33:45 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:33:45 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-19 19:33:45 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:33:45 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-19 19:33:45 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-19 19:33:45 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-19 19:33:45 info: Modelos sincronizados correctamente.
+2025-04-19 19:33:45 info: Servidor escuchando en el puerto: 3001
+2025-04-19 19:38:13 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:38:13 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:38:46 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:38:46 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:40:09 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:40:09 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:42:12 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:42:12 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:43:18 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:43:18 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:46:14 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';
+2025-04-19 19:46:14 info: Executing (default): SELECT `nombre`, `apellido`, `email`, `telefono`, `rut` FROM `usuario` AS `Usuario` WHERE `Usuario`.`id` = '5';

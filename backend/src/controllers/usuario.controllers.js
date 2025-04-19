@@ -1,4 +1,3 @@
-import { where } from "sequelize"
 import { Usuario } from "../models/Usuario.models.js"
 
 
@@ -6,7 +5,7 @@ export const getUsuarioById = async(req, res) =>{
     try {
         const {id} = req.params
 
-        const { usuario } = Usuario.findOne({
+        const usuario  = await Usuario.findOne({
             attributes:["nombre", "apellido", "email", "telefono", "rut"],
             where:{
                 id
@@ -22,7 +21,7 @@ export const getUsuarioById = async(req, res) =>{
 
     res.status(200).json({
         code: 200,
-        message: "Usuario encontrado con éeexito",
+        message: "Usuario encontrado con éxito",
         data: usuario
     })
 

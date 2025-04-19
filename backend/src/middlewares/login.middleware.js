@@ -6,14 +6,13 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 dotenv.config({path: path.resolve(__dirname, "../.env")});
 import { Usuario } from "../models/Usuario.models.js";
-import { raw } from "express";
+
 
 let secret = process.env.SECRET
 
 export const emitirToken = async(req, res, next) =>{
     try {
         const {email, password } = req.body
-
         const  usuario = await Usuario.findOne({
             attributes: ["email", "id", "password", "admin", "validate"],
             where:{
@@ -76,7 +75,6 @@ export const verificarToken = async(req, res, next) =>{
         let {authorization} = req.headers
         let {token} = req.query
         let dataToken;
-
         if(authorization){
             let token = authorization.split(" ")[1]
             dataToken = await verificacionToken(token)
@@ -87,7 +85,7 @@ export const verificarToken = async(req, res, next) =>{
             return res.status(401).json({code:401, message: error})
         }
 
-        req.player = dataToken.data
+        req.usuario = dataToken.data
         next()
         
         
