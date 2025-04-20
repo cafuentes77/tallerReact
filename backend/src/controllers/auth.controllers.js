@@ -2,6 +2,7 @@ import { Usuario } from "../models/Usuario.models.js";
 import { normalizeEmail, normalizeRut } from "../utils/normalize.js";
 import { validateUser, userExist } from "../services/validarUsuario.js";
 import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken"
 
 export const createUser = async (req, res) => {
     try {
@@ -20,10 +21,19 @@ export const createUser = async (req, res) => {
             password: hash
         })
 
+        const token = jwt.sign({
+            data: email,
+        },
+        "secreto",
+        {expiresIn: "30d"}
+    );
+    const url = `http://localhost:5173/validar-usuario/${email}?token=${token}`
+
         res.status(201).json({
             code: 201,
             message: "Usuario Creado Correctamente",
-            data: nuevoUsuario
+            data: nuevoUsuario,
+            linkValidacion: url
         })
 
     } catch (error) {

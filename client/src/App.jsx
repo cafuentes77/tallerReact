@@ -5,6 +5,7 @@ import { Navbar } from './components/Navbar'
 import { RegisterPage } from './pages/registerPage/RegisterPage'
 import { CrudPage } from './pages/crudPage/CrudPage'
 import { MiCuentaPage } from './pages/miCuenta/MiCuentaPage'
+import { ValidateUserPage } from './pages/validateUser/ValidateUserPage'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/contacto" element={<LoginPage />} />
                 <Route path="/crud" element={<CrudPage />} />
                 <Route path="/micuenta" element={<MiCuentaPage />} />
+                <Route path="/validar-usuario/:email" element={<ValidateUserPage />} />
             </Routes>
         </BrowserRouter>
     )
