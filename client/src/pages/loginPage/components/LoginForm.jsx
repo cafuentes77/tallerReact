@@ -1,17 +1,18 @@
 import { useState } from "react";
 import { fetchServices } from "../../../services/fetchServices";
 import { useSnackbar } from "notistack";
+import { Link } from "react-router-dom";
 
 export const LoginForm = () => {
     const { enqueueSnackbar } = useSnackbar()
-    const [loginForm , setLoginForm] = useState({
+    const [loginForm, setLoginForm] = useState({
         email: "",
         password: "",
     })
 
     const handleChange = (e) => {
         const { name, value } = e.target
-        setLoginForm({...loginForm, [name]: value })
+        setLoginForm({ ...loginForm, [name]: value })
     }
 
     const handleSubmit = async (e) => {
@@ -22,12 +23,12 @@ export const LoginForm = () => {
             const body = loginForm
             const data = await fetchServices(url, method, null, body);
 
-            if (data.code == 200){
+            if (data.code == 200) {
                 enqueueSnackbar(data.message, { variant: 'success' });
                 localStorage.setItem("token", data.token);
                 localStorage.setItem("usuario", JSON.stringify(data.usuario));
                 location.href = "/micuenta"
-            }else {
+            } else {
                 enqueueSnackbar(data.message, { variant: 'error' });
             }
 
@@ -35,7 +36,7 @@ export const LoginForm = () => {
             console.log(error);
         }
     }
-    
+
     return (
         <>
             <div className="min-h-screen flex items-center justify-center bg-gray-100">
@@ -80,21 +81,30 @@ export const LoginForm = () => {
                                 required
                             />
                         </div>
-                        <div className="flex items-center justify-between">
+                        <div className="flex items-center justify-center">
                             <button
                                 type="submit"
                                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                             >
                                 Iniciar Sesión
                             </button>
-                            <a
-                                href="#"
-                                className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800"
-                            >
-                                ¿Olvidaste tu contraseña?
-                            </a>
                         </div>
                     </form>
+                    <div>
+                        <div className="flex justify-center mt-2">
+                            <span className="me-2">¿No tienes cuenta?</span> <Link to="/registro" className="underline
+                        hover:text-slate-400">Registrate Aquí</Link>
+                        </div>
+                        <div className="flex justify-center">
+                            <Link
+                                to="recuperar-contraseña"
+                                className="underline
+                        hover:text-slate-400"
+                            >
+                                ¿Olvidaste tu contraseña?
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

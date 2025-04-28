@@ -79,8 +79,8 @@ export const crearTemplateHtml = (email, asunto, token, username) => {
                             </div>
                             <div class="footer">
                                 <p>&copy; 2025 Curso React | Todos los derechos reservados</p>
-                                <p>Si tienes alguna pregunta, puedes contactarnos a <a href="mailto:comunidad.mohaacl@gmail.com
-                                ">comunidad.mohaacl@gmail.com
+                                <p>Si tienes alguna pregunta, puedes contactarnos a <a href="mailto:desarrollojs77@gmail.com
+                                ">desarrollojs77@gmail.com
                                 </a>.</p>
                             </div>
                         </div>

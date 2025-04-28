@@ -31,11 +31,11 @@ export const Navbar = () => {
                         </h4>
 
                         {
-                            token &&  <h4 className="cursor-pointer flex items-center font-bold text-lg text-black transition-all duration-300 hover:text-slate-500 hover:translate-x-1">
-                            <NavLink className="flex items-center">
-                                <GoPersonFill className="mr-2" /> Mi Cuenta
-                            </NavLink>
-                        </h4>
+                            token && <h4 className="cursor-pointer flex items-center font-bold text-lg text-black transition-all duration-300 hover:text-slate-500 hover:translate-x-1">
+                                <NavLink className="flex items-center">
+                                    <GoPersonFill className="mr-2" /> Mi Cuenta
+                                </NavLink>
+                            </h4>
                         }
 
                         <h4 className="cursor-pointer flex items-center font-bold text-lg text-black transition-all duration-300 hover:text-slate-500 hover:translate-x-1">
@@ -46,18 +46,18 @@ export const Navbar = () => {
 
                         {
                             !token && <h4 className="cursor-pointer flex items-center font-bold text-lg text-black transition-all duration-300 hover:text-slate-500 hover:translate-x-1">
-                            <NavLink to={"/login"} className="flex items-center">
-                                <GoPersonFill className="mr-2" /> Login
-                            </NavLink>
-                        </h4>
+                                <NavLink to={"/login"} className="flex items-center">
+                                    <GoPersonFill className="mr-2" /> Login
+                                </NavLink>
+                            </h4>
                         }
 
                         {
-                            token &&  <h4 className="cursor-pointer flex items-center font-bold text-lg text-black transition-all duration-300 hover:text-slate-500 hover:translate-x-1">
-                            <NavLink to={"/"} className="flex items-center" onClick={logout}>
-                                <GoPersonFill className="mr-2" /> Logout
-                            </NavLink>
-                        </h4>
+                            token && <h4 className="cursor-pointer flex items-center font-bold text-lg text-black transition-all duration-300 hover:text-slate-500 hover:translate-x-1">
+                                <NavLink to={"/"} className="flex items-center" onClick={logout}>
+                                    <GoPersonFill className="mr-2" /> Logout
+                                </NavLink>
+                            </h4>
                         }
 
                     </div>

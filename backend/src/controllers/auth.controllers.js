@@ -10,7 +10,7 @@ export const createUser = async (req, res) => {
     try {
         const { nombre, apellido, email, telefono, rut, password } = req.body;
 
-        validateUser ({nombre, apellido, email, telefono, rut, password})
+        validateUser({ nombre, apellido, email, telefono, rut, password })
         await userExist(rut, email, telefono)
 
         const hash = bcrypt.hashSync(password, 10);
@@ -26,12 +26,12 @@ export const createUser = async (req, res) => {
         const token = jwt.sign({
             data: email,
         },
-        "secreto",
-        {expiresIn: "30d"}
-    );
+            "secreto",
+            { expiresIn: "30d" }
+        );
 
-    const usuario = `${nombre} ${apellido}`
-    enviarCorreo(email, "registro", token, usuario);
+        const usuario = `${nombre} ${apellido}`
+        enviarCorreo(email, "registro", token, usuario);
 
 
         res.status(201).json({
@@ -52,12 +52,12 @@ export const createUser = async (req, res) => {
 
 export const login = async (req, res) => {
     try {
-        const {email, password } = req.body;
+        const { email, password } = req.body;
         res.status(200).json({
             code: 200,
             message: "Inicio de Sesión Exitoso",
             usuario: req.usuario,
-            token:req.token
+            token: req.token
         })
     } catch (error) {
         console.log(error);
@@ -71,21 +71,21 @@ export const login = async (req, res) => {
 
 export const solicitarNuevaValidacion = async (req, res) => {
     try {
-        const { email }= req.body;
+        const { email } = req.body;
         const usuario = Usuario.findOne({
             raw: true,
             where: {
                 email
             }
         });
-        if(!usuario){
-            return resstatus(400).json({
+        if (!usuario) {
+            return res.status(400).json({
                 code: 400,
                 message: "El usuario no existe en la base de datos",
             })
         }
 
-        if(usuario.validate){
+        if (usuario.validate) {
             return res.status(400).json({
                 code: 400,
                 message: "El usuario ya ha sido validado",
@@ -95,15 +95,15 @@ export const solicitarNuevaValidacion = async (req, res) => {
         const token = jwt.sign({
             data: email,
         },
-        "secreto",
-        {expiresIn: "30d"}
-    );
+            "secreto",
+            { expiresIn: "30d" }
+        );
         const nombreUsuario = `${usuario.nombre} ${usuario.apellido}`;
         enviarCorreo(email, "nuevaValidacion", token, nombreUsuario)
 
         res.status(200).json({
             code: 200,
-            message: "Email de validacion enviado correctamente",
+            message: "Email de validación enviado correctamente",
         })
     } catch (error) {
         console.log(error);
@@ -115,7 +115,7 @@ export const solicitarNuevaValidacion = async (req, res) => {
     }
 }
 
-export const solicitarNuevaContraseña = async(req, res) =>{
+export const solicitarNuevaContraseña = async (req, res) => {
     try {
         const { email } = req.params
 
@@ -126,7 +126,7 @@ export const solicitarNuevaContraseña = async(req, res) =>{
             }
         })
 
-        if(!usuario){
+        if (!usuario) {
             return res.status(400).json({
                 code: 400,
                 message: "El usuario no existe en la base de datos",
@@ -136,19 +136,19 @@ export const solicitarNuevaContraseña = async(req, res) =>{
         const token = jwt.sign({
             data: email,
         },
-        "secreto",
-        {expiresIn : "10m"}
+            "secreto",
+            { expiresIn: "10m" }
         )
 
         const nombreUsuario = `${usuario.nombre} ${usuario.apellido}`
-        
+
         enviarCorreo(email, "recuperarPassword", token, nombreUsuario)
 
         res.status(200).json({
             code: 200,
-            message: "Email Para restablecer contraseña enviado",
+            message: "Email para restablecer contraseña enviado",
         })
-        
+
     } catch (error) {
         console.log(error);
         res.status(500).json({
