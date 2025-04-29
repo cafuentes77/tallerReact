@@ -1,15 +1,42 @@
-import { Link } from "react-router-dom"
+import { Link, useSearchParams } from "react-router-dom";
 import { useState } from "react";
+import { useSnackbar } from "notistack";
+import { fetchServices } from "../../../services/fetchServices";
 
 export const ModificarPasswordForm = () => {
+    const [params] = useSearchParams();
+    const { enqueueSnackbar } = useSnackbar()
+    const token = params.get("token")
+    const email = params.get("email")
 
     const [contraseñas, setContraseñas] = useState({
         contraseña: "",
         repeatContraseña: ""
     });
 
-    const handleSubmit = () => {
-        console.log(contraseñas);
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+
+        if (contraseñas.contraseña !== contraseñas.repeatContraseña) {
+            enqueueSnackbar("Las contraseñas no coinciden", { variant: "Warning" });
+            return
+        }
+
+        const url = "http://localhost:3001/api/v1/auth/modificar-password"
+        const method = "POST"
+        const body = {
+            email,
+            password: contraseñas.contraseña
+        }
+        const data = await fetchServices(url, method, token, body)
+
+        if (data.code === 200) {
+            enqueueSnackbar(data.message, { variant: "success" })
+        } else if (data.code === 400) {
+            enqueueSnackbar(data.message, { variant: "warning" })
+        } else {
+            enqueueSnackbar(data.message, { variant: "error" })
+        }
     }
 
     const handleChange = (e) => {

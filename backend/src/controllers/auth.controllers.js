@@ -4,6 +4,7 @@ import { validateUser, userExist } from "../services/validarUsuario.js";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken"
 import { enviarCorreo } from "../utils/emails.js";
+import { where } from "sequelize";
 
 
 export const createUser = async (req, res) => {
@@ -147,6 +148,45 @@ export const solicitarNuevaContraseña = async (req, res) => {
         res.status(200).json({
             code: 200,
             message: "Email para restablecer contraseña enviado",
+        })
+
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({
+            code: 500,
+            message: "Ha ocurrido un error interno en el servidor",
+            error: error.message
+        })
+    }
+}
+
+export const modificarPassword = async (req, res) => {
+    try {
+        const { email, password } = req.body
+        const user = await Usuario.findOne({
+            where: {
+                email
+            }
+        })
+
+        if (!user) {
+            return res.status(400).json({
+                code: 400,
+                message: "El usuario no existe en la base de datos",
+            })
+        }
+        const hash = bcrypt.hashSync(password, 10)
+        await Usuario.update({
+            password: hash
+        }, {
+            where: {
+                email
+            }
+        })
+
+        res.status(200).json({
+            code: 200,
+            message: "contraseña modificada correctamente",
         })
 
     } catch (error) {

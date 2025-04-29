@@ -57,7 +57,7 @@ export const FormularioRegistro = () => {
             const method = "POST"
             const body = useForm
             const data = await fetchServices(url, method, null, body)
-            
+
             if (data.code === 201) {
                 enqueueSnackbar(data.message, { variant: 'success' });
                 setTimeout(function () {
@@ -86,7 +86,7 @@ export const FormularioRegistro = () => {
                     />
                 </div>
                 <span className={`ms-9 text-red-600 font-semibold ${errors.nombre ? "block" : "hidden"}`}
-                >El Nombre debe contener minimo 2 caracteres</span>
+                >El Nombre debe contener mínimo 2 caracteres</span>
 
                 <div className="flex justify-center items-center space-x-4">
                     <FaUser />
@@ -101,7 +101,7 @@ export const FormularioRegistro = () => {
                     />
                 </div>
                 <span className={`ms-9 text-red-600 font-semibold ${errors.apellido ? "block" : "hidden"}`}
-                >El Apellido debe contener minimo 2 caracteres</span>
+                >El Apellido debe contener mínimo 2 caracteres</span>
 
                 <div className="flex justify-center items-center space-x-4">
                     <FaUser />
@@ -134,7 +134,7 @@ export const FormularioRegistro = () => {
                 <span className={`ms-9 text-red-600 font-semibold ${errors.email ? "block" : "hidden"}`}
                 >El formato del email es inválido</span>
 
-<div className="flex justify-center items-center space-x-4">
+                <div className="flex justify-center items-center space-x-4">
                     <FaSquarePhone />
                     <input
                         type="text"
@@ -167,7 +167,7 @@ export const FormularioRegistro = () => {
                     />
                 </div>
                 <span className={`ms-9 text-red-600 font-semibold ${errors.password ? "block" : "hidden"}`}
-                >La contraseña debe contener minimo 8 caracteres, una mayuscula, un número y un caracter especial</span>
+                >La contraseña debe contener mínimo 8 caracteres, una mayúscula, un número y un carácter especial</span>
 
                 <div className="flex justify-center items-center space-x-4">
                     <div
@@ -197,7 +197,7 @@ export const FormularioRegistro = () => {
                             <PulseLoader color="#ffffff" size={10} />
                         ) : (
                             <>
-                                <IoPersonAdd className="mx-2" /> 
+                                <IoPersonAdd className="mx-2" />
                                 <span>Registrarse</span>
                             </>
                         )}

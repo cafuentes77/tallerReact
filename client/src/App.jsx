@@ -7,6 +7,7 @@ import { CrudPage } from './pages/crudPage/CrudPage'
 import { MiCuentaPage } from './pages/miCuenta/MiCuentaPage'
 import { ValidateUserPage } from './pages/validateUser/ValidateUserPage'
 import { RecuperarPasswordPage } from './pages/recuperarPassword/RecuperarPasswordPage'
+import { ModificarPasswordPage } from './pages/modificarPassword/ModificarPasswordPage'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/micuenta" element={<MiCuentaPage />} />
                 <Route path="/validar-cuenta" element={<ValidateUserPage />} />
                 <Route path="/recuperar-contraseña" element={<RecuperarPasswordPage />} />
+                <Route path="/modificar-password" element={<ModificarPasswordPage />} />
             </Routes>
         </BrowserRouter>
     )

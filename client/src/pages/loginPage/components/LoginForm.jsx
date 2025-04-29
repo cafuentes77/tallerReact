@@ -97,7 +97,7 @@ export const LoginForm = () => {
                         </div>
                         <div className="flex justify-center">
                             <Link
-                                to="recuperar-contraseña"
+                                to="/recuperar-contraseña"
                                 className="underline
                         hover:text-slate-400"
                             >

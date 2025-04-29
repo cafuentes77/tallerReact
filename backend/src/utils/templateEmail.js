@@ -148,7 +148,7 @@ export const crearTemplateHtml = (email, asunto, token, username) => {
                     <body>
                         <div class="email-container">
                             <div class="header">
-                                <h1>Validación Mohaax.cl</h1>
+                                <h1>Validación para tu curso de React</h1>
                             </div>
                             <div class="content">
                                 <p>¡Hola! <strong>${username}</strong></p>
@@ -161,8 +161,7 @@ export const crearTemplateHtml = (email, asunto, token, username) => {
                             </div>
                             <div class="footer">
                                 <p>&copy; 2025 Curso React | Todos los derechos reservados</p>
-                                <p>Si tienes alguna pregunta, puedes contactarnos a <a href="mailto:comunidad.mohaacl@gmail.com
-                                ">comunidad.mohaacl@gmail.com
+                                <p>Si tienes alguna pregunta, puedes contactarnos a <a href="mailto:desarrollojs77@gmail.com">desarrollojs77@gmail.com</a>.</p>
                                 </a>.</p>
                             </div>
                         </div>
@@ -229,7 +228,7 @@ export const crearTemplateHtml = (email, asunto, token, username) => {
                     <body>
                         <div class="email-container">
                             <div class="header">
-                                <h1>Recupera tu contraseña de Mohaax.cl</h1>
+                                <h1>Recupera tu contraseña para tu curso de React</h1>
                             </div>
                             <div class="content">
                                 <p>¡Hola! <strong>${username}</strong></p>
@@ -241,8 +240,8 @@ export const crearTemplateHtml = (email, asunto, token, username) => {
                             </div>
                             <div class="footer">
                                 <p>&copy; 2025 Curso React | Todos los derechos reservados</p>
-                                <p>Si tienes alguna pregunta, puedes contactarnos a <a href="mailto:comunidad.mohaacl@gmail.com
-                                ">comunidad.mohaacl@gmail.com
+                                <p>Si tienes alguna pregunta, puedes contactarnos a <a 
+                                href="mailto:desarrollojs77@gmail.com">desarrollojs77@gmail.com</a>.</p>
                                 </a>.</p>
                             </div>
                         </div>
@@ -334,14 +333,14 @@ export const crearTemplateHtml = (email, asunto, token, username) => {
                             </div>
                             <div class="content">
                                 <p>¡Hola! <strong>${username}</strong></p>
-                                <p>Tu contraseña ha sido modificada correctamente en Curso React. Si no realizaste este cambio, por favor contáctanos inmediatamente.</p>
+                                <p>Tu contraseña ha sido modificada correctamente en Curso React. Si no realizaste este cambio, por favor contáctenos inmediatamente.</p>
                             </div>
                             <div class="button-container">
                                 <a href="http://localhost:5173/login" class="button">Volver a Iniciar Sesión</a>
                             </div>
                             <div class="footer">
                                 <p>&copy; 2025 Curso React | Todos los derechos reservados</p>
-                                <p>Si tienes alguna pregunta, puedes contactarnos a <a href="mailto:comunidad.mohaacl@gmail.com">comunidad.mohaacl@gmail.com</a>.</p>
+                                <p>Si tienes alguna pregunta, puedes contactarnos a <a href="mailto:desarrollojs77@gmail.com">desarrollojs77@gmail.com</a>.</p>
                             </div>
                         </div>
                     </body>
