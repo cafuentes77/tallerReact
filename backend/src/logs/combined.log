@@ -3255,3 +3255,58 @@
 2025-04-28 20:41:12 info: Executing (default): SELECT `Juego`.`id`, `Juego`.`nombre`, `Juego`.`id_consola`, `Juego`.`id_categoria`, `Juego`.`imagen`, `Juego`.`year`, `Juego`.`descripcion`, `consola`.`id` AS `consola.id`, `consola`.`nombre` AS `consola.nombre`, `categoria`.`id` AS `categoria.id`, `categoria`.`nombre` AS `categoria.nombre` FROM `juego` AS `Juego` LEFT OUTER JOIN `consola` AS `consola` ON `Juego`.`id_consola` = `consola`.`id` LEFT OUTER JOIN `categoria` AS `categoria` ON `Juego`.`id_categoria` = `categoria`.`id`;
 2025-04-28 20:41:21 info: Executing (default): SELECT `id`, `nombre`, `apellido`, `rut`, `email`, `password`, `telefono`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'cfuentesmedina@gmail.com' LIMIT 1;
 2025-04-28 20:41:57 info: Executing (default): SELECT `id`, `nombre`, `apellido`, `rut`, `email`, `password`, `telefono`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` IS NULL LIMIT 1;
+2025-04-28 20:47:04 info: Not overriding built-in method from model attribute: validate
+2025-04-28 20:47:05 info: Executing (default): SELECT 1+1 AS result
+2025-04-28 20:47:05 info: Conexión a la base de datos establecida correctamente.
+2025-04-28 20:47:05 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 20:47:05 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-28 20:47:05 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 20:47:05 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-28 20:47:05 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 20:47:05 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-28 20:47:05 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 20:47:05 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-28 20:47:05 info: Modelos sincronizados correctamente.
+2025-04-28 20:47:05 info: Servidor escuchando en el puerto: 3001
+2025-04-28 20:47:59 info: Executing (default): SELECT `id`, `nombre`, `apellido`, `rut`, `email`, `password`, `telefono`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'cfuentesmedina@gmail.com' LIMIT 1;
+2025-04-28 20:48:27 info: Executing (default): SELECT `id`, `nombre`, `apellido`, `rut`, `email`, `password`, `telefono`, `admin`, `validate` FROM `usuario` AS `Usuario` WHERE `Usuario`.`email` = 'cfuentesmedina@gmail.com' LIMIT 1;
+2025-04-28 20:48:27 info: Executing (default): UPDATE `usuario` SET `password`=? WHERE `email` = ?
+2025-04-28 21:11:15 info: Not overriding built-in method from model attribute: validate
+2025-04-28 21:11:16 info: Executing (default): SELECT 1+1 AS result
+2025-04-28 21:11:16 info: Conexión a la base de datos establecida correctamente.
+2025-04-28 21:11:16 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 21:11:16 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-28 21:11:16 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 21:11:16 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-28 21:11:16 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 21:11:16 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-28 21:11:16 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 21:11:16 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-28 21:11:16 info: Modelos sincronizados correctamente.
+2025-04-28 21:11:16 info: Servidor escuchando en el puerto: 3001
+2025-04-28 21:11:38 info: Not overriding built-in method from model attribute: validate
+2025-04-28 21:11:39 info: Executing (default): SELECT 1+1 AS result
+2025-04-28 21:11:39 info: Conexión a la base de datos establecida correctamente.
+2025-04-28 21:11:39 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 21:11:39 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-28 21:11:39 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 21:11:39 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-28 21:11:39 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 21:11:39 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-28 21:11:39 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 21:11:39 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-28 21:11:39 info: Modelos sincronizados correctamente.
+2025-04-28 21:11:39 info: Servidor escuchando en el puerto: 3001
+2025-04-28 21:47:50 info: Not overriding built-in method from model attribute: validate
+2025-04-28 21:47:51 info: Executing (default): SELECT 1+1 AS result
+2025-04-28 21:47:51 info: Conexión a la base de datos establecida correctamente.
+2025-04-28 21:47:51 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'consola' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 21:47:51 info: Executing (default): SHOW INDEX FROM `consola`
+2025-04-28 21:47:51 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'categoria' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 21:47:51 info: Executing (default): SHOW INDEX FROM `categoria`
+2025-04-28 21:47:51 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 21:47:51 info: Executing (default): SHOW INDEX FROM `juego`
+2025-04-28 21:47:51 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'usuario' AND TABLE_SCHEMA = 'taller_react'
+2025-04-28 21:47:51 info: Executing (default): SHOW INDEX FROM `usuario`
+2025-04-28 21:47:51 info: Modelos sincronizados correctamente.
+2025-04-28 21:47:51 info: Servidor escuchando en el puerto: 3001

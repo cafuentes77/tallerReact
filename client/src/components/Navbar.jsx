@@ -32,7 +32,7 @@ export const Navbar = () => {
 
                         {
                             token && <h4 className="cursor-pointer flex items-center font-bold text-lg text-black transition-all duration-300 hover:text-slate-500 hover:translate-x-1">
-                                <NavLink className="flex items-center">
+                                <NavLink to={"/micuenta"} className="flex items-center">
                                     <GoPersonFill className="mr-2" /> Mi Cuenta
                                 </NavLink>
                             </h4>
